@@ -1,0 +1,9 @@
+# Normalize line endings for text files
+* text=auto
+
+# Keep MATLAB files properly typed
+*.m text
+*.mlx binary
+*.slx binary
+*.mat binary
+*.pdf binary

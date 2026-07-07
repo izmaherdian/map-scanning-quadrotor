@@ -1,0 +1,8 @@
+# MATLAB and Simulink autosave/cache files
+*.asv
+*.slxc
+slprj/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

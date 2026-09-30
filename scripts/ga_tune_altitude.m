@@ -1,3 +1,7 @@
+%% GA_TUNE_ALTITUDE  Tune the altitude backstepping gains (c7, c8) with a Genetic Algorithm.
+% Requires the Global Optimization Toolbox. Run main_simulation first so that
+% the quadrotor parameters are in the base workspace and model/ is on the path.
+
 %% GA Parameter Tuning
 % Jumlah parameter yang dioptimasi (c1, c2)
 nvars = 2;

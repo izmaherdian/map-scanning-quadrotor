@@ -1,6 +1,10 @@
+%% ANIMATE_QUADROTOR_3D  3D animation of the quadrotor following the zig-zag scan path.
+% Loads the saved simulation results in data/scanning_mode_results.mat and
+% draws the actual vs. desired trajectory together with the body frame.
+
 close all
 % Load Data
-load('DataLintasanDroneFix(ScanningMode).mat');
+load(fullfile(fileparts(mfilename('fullpath')), '..', 'data', 'scanning_mode_results.mat'));
 
 % Simulink 3D Animation with Moving Target
 figure;

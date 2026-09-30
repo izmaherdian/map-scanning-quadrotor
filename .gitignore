@@ -1,8 +1,17 @@
-# MATLAB and Simulink autosave/cache files
-*.asv
-*.slxc
+# MATLAB / Simulink build artifacts
 slprj/
+*.slxc
+*.asv
+*.autosave
+*.mexa64
+*.mexw64
+*.mexmaci64
+*_ert_rtw/
+*_grt_rtw/
+*_rsim_rtw/
+sccprj/
+codegen/
 
-# OS-specific files
+# OS
 .DS_Store
 Thumbs.db

@@ -1,5 +1,8 @@
+%% PLOT_STATE_RESPONSE  Animated plots of position, Euler angles and control inputs U1-U4.
+% Loads the saved simulation results in data/scanning_mode_results.mat.
+
 % Load Data
-load('DataLintasanDroneFix(ScanningMode).mat');
+load(fullfile(fileparts(mfilename('fullpath')), '..', 'data', 'scanning_mode_results.mat'));
 
 x = xData.Data(:,1);
 x_d = xData.Data(:,2);

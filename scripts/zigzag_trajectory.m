@@ -1,3 +1,7 @@
+%% ZIGZAG_TRAJECTORY  Generate and animate the zig-zag (boustrophedon) scanning path.
+% The drone sweeps along x, steps along y by 'belokan', and returns to the
+% start point once the whole rectangular area has been covered.
+
 % Contoh penggunaan
 % Input
 panjang = 50;         % Panjang lintasan x  
